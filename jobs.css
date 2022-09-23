@@ -1,0 +1,98 @@
+.search-box{
+    display: flex;
+    flex-direction: row;
+    height: 90px;
+    justify-content: flex-start;
+    align-items: center;
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.filter{
+    display: flex;
+    border-bottom: 1px solid;
+    width: 70%;
+    padding-bottom: 3px;
+    font-size: 20px;
+    margin-left: 5%;
+    border-bottom-color: white;
+}
+.filter-txt{
+    margin-left: 2%;
+    border: 1px solid;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    font-size: 25px;
+    color: white;
+
+}
+body{
+    background-color: white;
+}
+.txt-filter{
+    color: grey;
+    font-size: 20px;
+}
+.header{
+    background-color: palevioletred;
+    height: 120px;
+    margin: 0 auto;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.find-job-btn{
+    background-color: palevioletred;
+    width: 15%;
+    height: 65%;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    color: white;
+    margin-left: 4%;
+    cursor: pointer;
+}
+.find-job-btn:hover{
+    background-color: pink;
+    transition: all 0.4s ease-in-out;
+    transform: scale(1.10);
+}
+
+.job-container{
+    width: 1200px;
+    margin: 0 auto;
+    height: 90vw;
+
+}
+.job-container h2{
+    font-size: 25px;
+    margin-left: 2%;
+}
+
+.job-tiles{
+
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2%;
+
+}
+.job-tiles .card{
+    height: 300px;
+    width: 340px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: palevioletred;
+}
+.job-tiles .card:hover{
+    cursor: pointer;
+    transform: scale(1.10);
+    transition: all 0.7s ease-in-out;
+}
+
+
