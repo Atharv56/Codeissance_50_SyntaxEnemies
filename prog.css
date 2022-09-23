@@ -1,0 +1,35 @@
+:root {
+    --color-default: #222222;
+    --color-primary: palevioletred;
+    --color-secondary: white;
+}
+
+#progressBar {
+    width: 10%;
+    background: darkgrey;
+    
+    border-radius: 10px;
+}
+
+#bar {
+    border-radius: 10px;
+    width: 0%;
+    height: 10px;
+    background-color: palevioletred;
+}
+
+#upperHead {
+    
+}
+
+#upperHead > .inline {
+    display: inline-block;
+    
+}
+
+.course {
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 10px;
+}

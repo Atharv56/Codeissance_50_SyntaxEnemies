@@ -95,4 +95,59 @@ body{
     transition: all 0.7s ease-in-out;
 }
 
+.job-title{
+    height: 16%;
+    border: 2px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+.job-desc{
+    height: 55%;
+    border: 2px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-btns{
+    display: flex;
+    justify-content: space-evenly;
+    height: 25%;
+    border: 2px solid;
+    border-radius: 10px;
 
+}
+.enroll{
+    display: flex;
+    justify-content: center;
+    border: 2px solid;
+    height: 92%;
+    width: 32%;
+    align-items: center;
+    border-radius: 10px;
+    background-color: pink;
+}
+.details{
+    display: flex;
+    justify-content: center;
+    border: 2px solid;
+    height: 92%;
+    width: 32%;
+    align-items: center;
+    border-radius: 10px;
+    background-color: pink;
+}
+
+.enroll:hover{
+    transform: scale(1.05);
+    transition: all 0.5s ease-in-out;
+    color: pink;
+    background-color: white;
+}
+.details:hover{
+    transform: scale(1.05);
+    transition: all 0.5s ease-in-out;
+    color: pink;
+    background-color: white;
+}
