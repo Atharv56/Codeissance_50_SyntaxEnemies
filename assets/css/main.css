@@ -20,7 +20,7 @@
 :root {
   --color-default: #222222;
   --color-primary: palevioletred;
-  --color-secondary: #f85a40;
+  --color-secondary: white;
 }
 
 /* Smooth scroll behavior */
@@ -42,7 +42,7 @@ a {
 }
 
 a:hover {
-  color: #00b6a1;
+  color: #390c3b;
   text-decoration: none;
 }
 
@@ -438,7 +438,7 @@ section {
     font-size: 15px;
     text-transform: none;
     font-weight: 600;
-    color: #006a5d;
+    color: palevioletred;
   }
 
   .navbar .dropdown ul a i {
@@ -448,7 +448,7 @@ section {
   .navbar .dropdown ul a:hover,
   .navbar .dropdown ul .active:hover,
   .navbar .dropdown ul li:hover>a {
-    color: var(--color-secondary);
+    color: #390c3b;
   }
 
   .navbar .dropdown:hover>ul {
@@ -509,7 +509,7 @@ section {
     inset: 0;
     padding: 50px 0 10px 0;
     margin: 0;
-    background: rgba(0, 131, 116, 0.9);
+    background: palevioletred;
     overflow-y: auto;
     transition: 0.3s;
     z-index: 9998;
@@ -555,7 +555,7 @@ section {
   .navbar .getstarted:hover,
   .navbar .getstarted:focus:hover {
     color: #fff;
-    background: rgba(0, 131, 116, 0.8);
+    background: palevioletred;
   }
 
   .navbar .dropdown ul,
@@ -565,8 +565,8 @@ section {
     padding: 10px 0;
     margin: 10px 20px;
     transition: all 0.5s ease-in-out;
-    background-color: #007466;
-    border: 1px solid #006459;
+    background-color: palevioletred;
+    border: 1px solid palevioletred;
   }
 
   .navbar .dropdown>.dropdown-active,
@@ -608,7 +608,7 @@ section {
     content: "";
     position: fixed;
     inset: 0;
-    background: rgba(0, 106, 93, 0.8);
+    background: palevioletred;
     z-index: 9996;
   }
 }
@@ -696,7 +696,7 @@ section {
   animation-timing-function: steps;
   opacity: 1;
   border-radius: 50%;
-  border: 5px solid rgba(0, 131, 116, 0.7);
+  border: 5px solid palevioletred;
   top: -15%;
   left: -15%;
   background: rgba(198, 16, 0, 0);
@@ -841,8 +841,8 @@ section {
 # Call To Action Section
 --------------------------------------------------------------*/
 .call-to-action .container {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/cta-bg.jpg") center center;
-  background-size: cover;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/cta-bg.jpeg") center center;
+  background-size: fill;
   padding: 100px 60px;
   border-radius: 15px;
   overflow: hidden;
@@ -888,7 +888,7 @@ section {
   animation-timing-function: steps;
   opacity: 1;
   border-radius: 50%;
-  border: 5px solid rgba(0, 131, 116, 0.7);
+  border: 5px solid palevioletred;
   top: -15%;
   left: -15%;
   background: rgba(198, 16, 0, 0);
@@ -1030,7 +1030,7 @@ section {
 }
 
 .services .service-item:hover .icon:before {
-  background: #00b6a1;
+  background: palevioletred;
 }
 
 .services .service-item:hover h3 {
@@ -1084,7 +1084,7 @@ section {
 
 .testimonials .testimonial-item .quote-icon-left,
 .testimonials .testimonial-item .quote-icon-right {
-  color: #009d8b;
+  color: palevioletred;
   font-size: 26px;
   line-height: 0;
 }
@@ -1327,7 +1327,7 @@ section {
 }
 
 .portfolio-details .portfolio-info .btn-visit:hover {
-  background: #009d8b;
+  background: palevioletred;
 }
 
 .portfolio-details .portfolio-description h2 {
@@ -1371,7 +1371,7 @@ section {
 
 .portfolio-details .portfolio-description .testimonial-item .quote-icon-left,
 .portfolio-details .portfolio-description .testimonial-item .quote-icon-right {
-  color: #009d8b;
+  color: palevioletred;
   font-size: 26px;
   line-height: 0;
 }
@@ -1564,7 +1564,7 @@ section {
 }
 
 .pricing ul i {
-  color: #059652;
+  color: palevioletred;
   font-size: 24px;
   padding-right: 3px;
 }
@@ -1754,7 +1754,7 @@ section {
 
 .contact .info-item {
   width: 100%;
-  background-color: #009282;
+  background-color: palevioletred;
   margin-bottom: 20px;
   padding: 20px;
   border-radius: 10px;
@@ -1827,7 +1827,7 @@ section {
 .contact .php-email-form .sent-message {
   display: none;
   color: #fff;
-  background: #059652;
+  background: palevioletred;
   text-align: center;
   padding: 15px;
   font-weight: 600;
@@ -1847,7 +1847,7 @@ section {
   width: 24px;
   height: 24px;
   margin: 0 10px -6px 0;
-  border: 3px solid #059652;
+  border: 3px solid palevioletred;
   border-top-color: #fff;
   -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
@@ -1886,7 +1886,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: rgba(0, 131, 116, 0.8);
+  background: pink;
 }
 
 @-webkit-keyframes animate-loading {
@@ -1915,7 +1915,7 @@ section {
 .hero {
   width: 100%;
   position: relative;
-  background: var(--color-primary);
+  background: white;
   padding: 60px 0 0 0;
 }
 
@@ -1980,6 +1980,7 @@ section {
 @media (max-width: 640px) {
   .hero h2 {
     font-size: 36px;
+    color: palevioletred;
   }
 
   .hero .btn-get-started,
@@ -2000,7 +2001,7 @@ section {
     left: 0;
     right: 0;
     height: calc(50% + 20px);
-    background-color: #008374;
+    background-color: white;
   }
 }
 
@@ -2008,7 +2009,7 @@ section {
   padding: 60px 30px;
   position: relative;
   overflow: hidden;
-  background: #008d7d;
+  background: palevioletred;
   box-shadow: 0 0 29px 0 rgba(0, 0, 0, 0.08);
   transition: all 0.3s ease-in-out;
   border-radius: 8px;
@@ -2040,7 +2041,7 @@ section {
 }
 
 .hero .icon-box:hover {
-  background: #009786;
+  background: palevioletred;
 }
 
 .hero .icon-box:hover .title a,
@@ -2391,7 +2392,7 @@ section {
 }
 
 .blog .sidebar .search-form form button:hover {
-  background: rgba(0, 131, 116, 0.8);
+  background: palevioletred;
 }
 
 .blog .sidebar .categories ul {
@@ -2569,7 +2570,7 @@ section {
 
 .blog .comments .reply-form input:focus {
   box-shadow: none;
-  border-color: rgba(0, 131, 116, 0.8);
+  border-color: palevioletred;
 }
 
 .blog .comments .reply-form textarea {
@@ -2580,7 +2581,7 @@ section {
 
 .blog .comments .reply-form textarea:focus {
   box-shadow: none;
-  border-color: rgba(0, 131, 116, 0.8);
+  border-color: palevioletred;
 }
 
 .blog .comments .reply-form .form-group {
@@ -2669,7 +2670,7 @@ section {
 
 .footer .footer-links ul i {
   padding-right: 2px;
-  color: rgba(0, 131, 116, 0.8);
+  color: palevioletred;
   font-size: 12px;
   line-height: 0;
 }
@@ -2786,6 +2787,9 @@ section {
 }
 #radio5:checked ~ .first{
   margin-left: -80%;
+}
+#radio6:checked ~ .first{
+  margin-left: -100%;
 }
 .navigation-auto{
   position: absolute;
