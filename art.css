@@ -73,6 +73,10 @@ h2{
     background-image: url(back.jpg);
     background-position: center;
     background-size: cover;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
 }
 .form-box{
     width:380px;
@@ -172,4 +176,32 @@ span{
     left: 450px;
 }
 
+.feedback{
+    height: 55px;
+    width: 120px;
+    border: 2px solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    position: absolute;
+    margin-top: 55px;
+    font-size: 24px;
+    background-color: palevioletred;
+    cursor: pointer;
 
+}
+.feedback:hover{
+    background-color: pink;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}

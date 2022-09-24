@@ -44,6 +44,7 @@ body{
     display: flex;
     justify-content: center;
     flex-direction: row;
+    width: 100%;
 }
 .find-job-btn{
     background-color: palevioletred;
@@ -109,6 +110,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 20px;
 }
 .card-btns{
     display: flex;
